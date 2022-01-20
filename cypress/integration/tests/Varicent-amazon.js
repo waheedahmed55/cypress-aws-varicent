@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 /// <reference types="Cypress-xpath" />
 import LoginMethods from "../pageMethods/LoginMethods";
-import HomePageMethods from "../pageMethods/HomePageMethods";
+import HomePageMethods from "../pageMethods/HomepageMethods";
 import CheckoutMethods from "../pageMethods/CheckoutMethods";
 
 describe('Demo-Varicent', () => {
