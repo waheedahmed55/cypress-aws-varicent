@@ -1,0 +1,33 @@
+{
+  "name": "varicent_automation",
+  "version": "1.0.0",
+  "description": "Cypress Automation",
+  "main": "index.js",
+  "scripts": {
+    "cy:test:headed": "npx cypress run --spec cypress/integration/tests/Varicent-amazon.js --headed --browser chrome",
+    "cy:test:headless": "npx cypress run --spec cypress/integration/tests/Varicent-amazon.js --headless --browser chrome",
+    "testAWSHeaded": "npx cypress run --env url=https://www.amazon.ca/,username=rulewithwaheed@outlook.com,password=ewithwahe@2323 --headed --browser chrome",
+    "testAWSHeadless": "npx cypress run --env url=https://www.amazon.ca/,username=rulewithwaheed@outlook.com,password=ewithwahe@2323 --headless --browser chrome"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^9.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-junit-reporter": "^1.3.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-xpath": "^1.6.2",
+    "junit-report-merger": "^3.0.5",
+    "mocha": "^9.1.4",
+    "mocha-junit-reporter": "^2.0.2",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^2.3.0"
+  }
+}

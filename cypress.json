@@ -1,0 +1,26 @@
+{
+	"fixturesFolder": "cypress/fixtures",
+	"viewportHeight": 768,
+	"viewportWidth": 1366,
+	"integrationFolder": "cypress/integration/tests",
+	"video": false,
+  "reporter": "cypress-multi-reporters",  
+  "reporterOptions": {  
+    "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",  
+    "cypressMochawesomeReporterReporterOptions": {  
+      "reportDir": "cypress/reports",  
+      "charts": true,  
+      "reportPageTitle": "My Test Suite",  
+      "embeddedScreenshots": true,  
+      "inlineAssets": true  
+    },  
+    "mochaJunitReporterReporterOptions": {  
+      "mochaFile": "cypress/reports/junit/results-[hash].xml"  
+    }  
+  }, 
+  "env": {
+    "url": "https://www.amazon.ca/",
+    "username": "rulewithwaheed@outlook.com",
+		"password": "ewithwahe@2323"
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<testsuites failures="0" errors="0" tests="5">
+  <testsuite name="Root Suite" timestamp="2022-01-20T13:04:01" tests="0" file="cypress/integration/tests/Varicent-amazon.js" time="0.0000" failures="0"/>
+  <testsuite name="Demo-Varicent" timestamp="2022-01-20T13:04:01" tests="5" time="243.7580" failures="0">
+    <testcase name="Demo-Varicent As a User, I should have the ability to sign into Amazon" time="38.2230" classname="As a User, I should have the ability to sign into Amazon"/>
+    <testcase name="Demo-Varicent As a User, I should have the ability to search for an item on Amazon" time="33.4790" classname="As a User, I should have the ability to search for an item on Amazon"/>
+    <testcase name="Demo-Varicent As a User, I can lookup a review for a product" time="65.5560" classname="As a User, I can lookup a review for a product"/>
+    <testcase name="Demo-Varicent As a User, I can add an item to the shopping cart" time="45.8000" classname="As a User, I can add an item to the shopping cart"/>
+    <testcase name="Demo-Varicent As a User, I can delete an item in the shopping cart" time="52.7180" classname="As a User, I can delete an item in the shopping cart"/>
+  </testsuite>
+</testsuites>
