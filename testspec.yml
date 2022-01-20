@@ -23,7 +23,7 @@ phases:
       # Builds Angular application
       - echo Build started on `date`
       # It will compile code and create artifactory in dist directory
-      - cypress run --headless --browser chrome 
+      - npx cypress run --headless --browser chrome 
 
   post_build:
     commands:
