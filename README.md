@@ -23,7 +23,7 @@ The purpose of the project is to display behavior & test driven framework for we
 ## How it works? Framework Architecture
 
 <p align="center">
-<img width="700" height="250" src="Image/frameworkstructure.png"><br />
+<img width="700" height="350" src="Image/frameworkstructure.png"><br />
 </p>
 
 * **What is Cypress?**
@@ -45,7 +45,7 @@ Application will be any web app, could be angular or non-angular application.
 ## Project Structure
 
 <p align="center">
-<img width="250" height="250" src="Image/archietcure.png"><br />
+<img width="250" height="350" src="Image/archietcure.png"><br />
 </p>
 
 * **fixtures :-**
@@ -101,18 +101,18 @@ This will install all the required dependencies in the project (node modules)
    npm run cy:test:headed
 ```
 <p align="center">
-<img width="700" height="250" src="Image/cypressbrowsertestrun.png"><br />
+<img width="700" height="350" src="Image/cypressbrowsertestrun.png"><br />
 </p>
 
 Console Output:
 
 <p align="center">
-<img width="700" height="250" src="Image/consoletestresult.png"><br />
+<img width="700" height="350" src="Image/consoletestresult.png"><br />
 </p>
 
 Mochawesome HTML Report:
 <p align="center">
-<img width="700" height="250" src="Image/moachaesome.png"><br />
+<img width="700" height="350" src="Image/moachaesome.png"><br />
 </p>
 
 * Run Test Headless Local:- You want to run Varicent-amazon.js test class which is under integration/tests directory you will run using following command. 
@@ -128,7 +128,7 @@ Mochawesome HTML Report:
 I have integrated dashboard within AWS so that we dont have to download test results and report can be viewed within.
  
 <p align="center">
-<img width="700" height="250" src="Image/awstestreport.png"><br />
+<img width="700" height="350" src="Image/awstestreport.png"><br />
 </p>
 
 
