@@ -122,7 +122,7 @@ Mochawesome HTML Report:
 
 * Run Test AWS:- The framework is configured to run in AWS Codepipeline as I have prepared testspec.yml file which contains all build and executection steps. The following command in AWS will execute the tests. 
 ```npm
-   npx cypress run --env url=https://www.amazon.ca/,username=rulewithwaheed@outlook.com,password=ewithwahe@2323 --headless --browser chrome  --reporter junit
+   npx cypress run --env url=https://www.amazon.ca/,username=xxxxxxxx@outlook.com,password=xxxxxx --headless --browser chrome  --reporter junit
 ```
 
 I have integrated dashboard within AWS so that we dont have to download test results and report can be viewed within.
