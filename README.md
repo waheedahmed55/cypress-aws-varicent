@@ -57,9 +57,7 @@ Test files are located in cypress/integration by default, but can be configured 
 •	.jsx
 •	.coffee
 •	.cjsx
-Cypress also supports ES2015 out of the box.
-
-integrationFolder	cypress/integration	Path to folder containing integration test files To start writing tests for your app, create a new file like app_spec.js within your cypress/integration folder. Refresh your tests list in the Cypress Test Runner and your new file should have appeared in the list.
+Cypress also supports ES2015 out of the box. IntegrationFolder	cypress/integration	Path to folder containing integration test files To start writing tests for your app, create a new file like app_spec.js within your cypress/integration folder. Refresh your tests list in the Cypress Test Runner and your new file should have appeared in the list.
 
    * **Integration PageMethods:** This contains custom methods which are further used in the integration – Tests. It is useful in reducing code duplication and improves test case maintenance. We need to import the Web locators from the integration – pageObjects.
 
