@@ -62,11 +62,11 @@ integrationFolder	cypress/integration	Path to folder containing integration test
 
 To start writing tests for your app, create a new file like app_spec.js within your cypress/integration folder. Refresh your tests list in the Cypress Test Runner and your new file should have appeared in the list.
 
-   + **Integration PageMethods:** This contains custom methods which are further used in the integration – Tests. It is useful in reducing code duplication and improves test case maintenance. We need to import the Web locators from the integration – pageObjects.
+   *Integration PageMethods:* This contains custom methods which are further used in the integration – Tests. It is useful in reducing code duplication and improves test case maintenance. We need to import the Web locators from the integration – pageObjects.
 
-   + **Integration PageObjects:** This contains all the web locators for all the web pages which are used in the test cases. These page objects are further imported in Integration – Page Methods and Integration – Tests.
+   *Integration PageObjects:* This contains all the web locators for all the web pages which are used in the test cases. These page objects are further imported in Integration – Page Methods and Integration – Tests.
 
-   + **Integration tests:** This contains all the test suites further segregated into the Regression and Smoke suite.
+   *Integration tests:* This contains all the test suites further segregated into the Regression and Smoke suite.
 
 * **Plugins :**-
 The plugins file is a special file that executes in Node before the project is loaded, before the browser launches, and during your test execution. While the Cypress tests execute in the browser, the plugins file runs in the background Node process, giving your tests the ability to access the file system and the rest of the operating system by calling the cy.task() command.
