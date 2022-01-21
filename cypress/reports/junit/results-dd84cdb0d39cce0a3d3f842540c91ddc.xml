@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="151.7540" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-01-21T02:49:52" tests="0" file="cypress/integration/tests/Varicent-amazon.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Demo-Varicent" timestamp="2022-01-21T02:49:53" tests="5" time="151.7100" failures="0">
+    <testcase name="Demo-Varicent As a User, I should have the ability to sign into Amazon" time="17.5140" classname="As a User, I should have the ability to sign into Amazon">
+    </testcase>
+    <testcase name="Demo-Varicent As a User, I should have the ability to search for an item on Amazon" time="21.8610" classname="As a User, I should have the ability to search for an item on Amazon">
+    </testcase>
+    <testcase name="Demo-Varicent As a User, I can lookup a review for a product" time="42.2710" classname="As a User, I can lookup a review for a product">
+    </testcase>
+    <testcase name="Demo-Varicent As a User, I can add an item to the shopping cart" time="30.8000" classname="As a User, I can add an item to the shopping cart">
+    </testcase>
+    <testcase name="Demo-Varicent As a User, I can delete an item in the shopping cart" time="33.7840" classname="As a User, I can delete an item in the shopping cart">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,186 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-21T02:49:52.987Z",
+    "end": "2022-01-21T02:52:24.738Z",
+    "duration": 151751,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "832121bc-1872-4c08-a8e4-1b47bf07fb77",
+      "title": "",
+      "fullFile": "cypress/integration/tests/Varicent-amazon.js",
+      "file": "cypress/integration/tests/Varicent-amazon.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2aeca34e-a107-4341-a4b4-3edafa1d4748",
+          "title": "Demo-Varicent",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "As a User, I should have the ability to sign into Amazon",
+              "fullTitle": "Demo-Varicent As a User, I should have the ability to sign into Amazon",
+              "timedOut": null,
+              "duration": 17514,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginMethods.navigateToURL(Cypress.env('url'));\nloginMethods.loginToAmazon(String(Cypress.env('username')), String(Cypress.env('password')));\nloginMethods.logoutFromAmazon();",
+              "err": {},
+              "uuid": "b53f7a87-a3c4-4df9-ad19-e55530716238",
+              "parentUUID": "2aeca34e-a107-4341-a4b4-3edafa1d4748",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "As a User, I should have the ability to search for an item on Amazon",
+              "fullTitle": "Demo-Varicent As a User, I should have the ability to search for an item on Amazon",
+              "timedOut": null,
+              "duration": 21861,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginMethods.navigateToURL(Cypress.env('url'));\nloginMethods.loginToAmazon(String(Cypress.env('username')), String(Cypress.env('password')));\nhomePageMethods.searchProduct(globalThis.data.product1);\nhomePageMethods.verifySearchResult(globalThis.data.searchResult);",
+              "err": {},
+              "uuid": "cd4cac0c-fdd7-4095-86d0-cc8c50b1e3bd",
+              "parentUUID": "2aeca34e-a107-4341-a4b4-3edafa1d4748",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "As a User, I can lookup a review for a product",
+              "fullTitle": "Demo-Varicent As a User, I can lookup a review for a product",
+              "timedOut": null,
+              "duration": 42271,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginMethods.navigateToURL(Cypress.env('url'));\nloginMethods.loginToAmazon(String(Cypress.env('username')), String(Cypress.env('password')));\nhomePageMethods.searchProduct(globalThis.data.product2);\nhomePageMethods.searchSpecficProduct(globalThis.data.selectProduct3);\nhomePageMethods.searchandValidateReview(globalThis.data.criteria1);",
+              "err": {},
+              "uuid": "d4d55b99-a154-415f-a96a-8252d53fac3a",
+              "parentUUID": "2aeca34e-a107-4341-a4b4-3edafa1d4748",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "As a User, I can add an item to the shopping cart",
+              "fullTitle": "Demo-Varicent As a User, I can add an item to the shopping cart",
+              "timedOut": null,
+              "duration": 30800,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginMethods.navigateToURL(Cypress.env('url'));\nloginMethods.loginToAmazon(String(Cypress.env('username')), String(Cypress.env('password')));\nhomePageMethods.searchProduct(globalThis.data.product3);\nhomePageMethods.clickFirstSearchResult();\nhomePageMethods.clickAddToCart();\ncheckoutMethods.verifySuccessfullyAddedToCart();",
+              "err": {},
+              "uuid": "9a7a93bc-9e29-4c80-914e-3e203735e84b",
+              "parentUUID": "2aeca34e-a107-4341-a4b4-3edafa1d4748",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "As a User, I can delete an item in the shopping cart",
+              "fullTitle": "Demo-Varicent As a User, I can delete an item in the shopping cart",
+              "timedOut": null,
+              "duration": 33784,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginMethods.navigateToURL(Cypress.env('url'));\nloginMethods.loginToAmazon(String(Cypress.env('username')), String(Cypress.env('password')));\nhomePageMethods.searchProduct(globalThis.data.product4);\nhomePageMethods.clickFirstSearchResult();\nhomePageMethods.clickAddToCart();\ncheckoutMethods.verifySuccessfullyAddedToCart();\ncheckoutMethods.verifySuccessfullyDeletedFromCart();",
+              "err": {},
+              "uuid": "ed0234f3-c708-42e9-aa48-fc9f7a701817",
+              "parentUUID": "2aeca34e-a107-4341-a4b4-3edafa1d4748",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b53f7a87-a3c4-4df9-ad19-e55530716238",
+            "cd4cac0c-fdd7-4095-86d0-cc8c50b1e3bd",
+            "d4d55b99-a154-415f-a96a-8252d53fac3a",
+            "9a7a93bc-9e29-4c80-914e-3e203735e84b",
+            "ed0234f3-c708-42e9-aa48-fc9f7a701817"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 146230,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress\\reports\\.jsons",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
