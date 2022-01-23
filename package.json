@@ -4,7 +4,7 @@
   "description": "Cypress Automation",
   "main": "index.js",
   "scripts": {
-    "cy:test:headed": "npx cypress run --spec cypress/integration/tests/Varicent-amazon.js --headed --browser chrome",
+    "cy:test:headed": "npx cypress run --spec cypress/integration/tests/Varicent-amazon.js --headed --browser chrome --record --key 3b887cf9-950d-4705-a86d-b6f4612f997f",
     "cy:test:headless": "npx cypress run --spec cypress/integration/tests/Varicent-amazon.js --headless --browser chrome",
     "testAWSHeaded": "npx cypress run --env url=https://www.amazon.ca/,username=rulewithwaheed@outlook.com,password=ewithwahe@2323 --headed --browser chrome",
     "testAWSHeadless": "npx cypress run --env url=https://www.amazon.ca/,username=rulewithwaheed@outlook.com,password=ewithwahe@2323 --headless --browser chrome"

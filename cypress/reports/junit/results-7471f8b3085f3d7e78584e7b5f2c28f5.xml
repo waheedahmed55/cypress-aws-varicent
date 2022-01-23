@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="235.2310" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-01-23T13:36:28" tests="0" file="cypress/integration/tests/Varicent-amazon.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Demo-Varicent" timestamp="2022-01-23T13:36:28" tests="5" time="235.1720" failures="1">
+    <testcase name="Demo-Varicent As a User, I should have the ability to sign into Amazon" time="26.1270" classname="As a User, I should have the ability to sign into Amazon">
+    </testcase>
+    <testcase name="Demo-Varicent As a User, I should have the ability to search for an item on Amazon" time="0.0000" classname="As a User, I should have the ability to search for an item on Amazon">
+      <failure message="expected 0 to not equal 0" type="AssertionError"><![CDATA[AssertionError: expected 0 to not equal 0
+    at Context.eval (https://www.amazon.ca/__cypress/tests?p=cypress\integration\tests\Varicent-amazon.js:184:25)]]></failure>
+    </testcase>
+    <testcase name="Demo-Varicent As a User, I can lookup a review for a product" time="69.5020" classname="As a User, I can lookup a review for a product">
+    </testcase>
+    <testcase name="Demo-Varicent As a User, I can add an item to the shopping cart" time="44.7040" classname="As a User, I can add an item to the shopping cart">
+    </testcase>
+    <testcase name="Demo-Varicent As a User, I can delete an item in the shopping cart" time="58.3220" classname="As a User, I can delete an item in the shopping cart">
+    </testcase>
+  </testsuite>
+</testsuites>

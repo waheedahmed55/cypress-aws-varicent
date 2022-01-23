@@ -24,7 +24,7 @@ phases:
       # Builds Angular application
       - echo Build started on `date`
       # It will compile code and create artifactory in dist directory
-      - npx cypress run --env url=https://www.amazon.ca/,username=xxxxxx@outlook.com,password=xxxx@2323 --headless --browser chrome  --reporter junit
+      - npx cypress run --env url=https://www.amazon.ca/,username=rulewithwaheed@outlook.com,password=ewithwahe@2323 --headless --browser chrome --reporter junit --record --key 3b887cf9-950d-4705-a86d-b6f4612f997f
   
   post_build:
     commands:
